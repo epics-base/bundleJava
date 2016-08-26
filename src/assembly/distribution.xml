@@ -40,10 +40,24 @@ and open the template in the editor.
         <fileSet>
             <directory>../exampleJava</directory>
             <excludes>
+                <exclude>**/scripts/**</exclude>
                 <exclude>**/target/**</exclude>
                 <exclude>**/jenkins/**</exclude>
                 <exclude>**/rdbService/**</exclude>
             </excludes>
+            <outputDirectory>example-modules/exampleJava</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>../exampleJava</directory>
+            <includes>
+                <include>**/scripts/**</include>
+            </includes>
+            <excludes>
+                <exclude>**/target/**</exclude>
+                <exclude>**/jenkins/**</exclude>
+                <exclude>**/rdbService/**</exclude>
+            </excludes>
+            <fileMode>0755</fileMode>
             <outputDirectory>example-modules/exampleJava</outputDirectory>
         </fileSet>
         <fileSet>
