@@ -1,3 +1,57 @@
+4.6.0 (2016-09-07)
+==================
+
+The main changes since bundle release 4.5.0.1 are:
+
+pvDataJava (6.0.2)
+------------------
+
+* Fixed issue with PVStructure's equals() method
+* Unit tests for equality of Structures/PVStructures added
+* PVAuxInfo has been removed
+* Field name validation has been added
+* Fixed truncation in BitSet::or_and
+* Extra postPut() in ConvertFactory.copyScalar array removed
+
+pvAccessJava (5.0.2)
+--------------------
+
+* Duplicate channel response from the same server warning removed
+* Server "all providers" support
+* ServerContextImpl.startPVAServer method added
+* "pvAccess" provider name deprecated, use "pva" instead
+* Server-side channel destroy
+* pipeline: ackAny parameter percentage support
+* PVGet utility monitor support
+* pvDS code removed
+* pipeline support added
+
+pvDatabaseJava (4.2.2)
+----------------------
+
+* Move examples to exampleJava.
+* Add support for channelRPC.
+* Add removeRecord and traceRecord.
+
+normativeTypesJava (0.2.2)
+--------------------------
+
+* __TODO__
+
+pvaClientJava (4.2.2)
+---------------------
+
+* The examples are moved to exampleJava.
+* Support for channelRPC is now available.
+
+exampleJava (4.2.2)
+-------------------
+
+* Move all example code to exampleJava.
+* Make each example is a separate Maven module.
+* Simplify documentation structure by moving docs to the parent.
+
+
 4.5.0.1 (2016/02/05)
 ====================
 
