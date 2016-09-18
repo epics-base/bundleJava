@@ -1,7 +1,11 @@
-4.6.0 (2016-09-07)
+4.6.0 (2016-09-18)
 ==================
 
 The main changes since bundle release 4.5.0.1 are:
+
+* The EPICS Core libraries are deployed to Maven Central.
+  Maven applications should add a dependency to epics-core,
+  using the version number of the bundle release.
 
 pvDataJava (6.0.2)
 ------------------
@@ -36,7 +40,7 @@ pvDatabaseJava (4.2.2)
 normativeTypesJava (0.2.2)
 --------------------------
 
-* __TODO__
+(No significant changes.)
 
 pvaClientJava (4.2.2)
 ---------------------
