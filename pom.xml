@@ -13,6 +13,11 @@
 
     <name>EPICS Core Distribution Bundle</name>
     <url>https://github.com/epics-base/bundleJava</url>
+    <scm>
+    	<url>https://github.com/epics-base/bundleJava</url>
+    	<connection>scm:git:https://github.com/epics-base/bundleJava</connection>
+    	<developerConnection>scm:git:https://github.com/epics-base/bundleJava</developerConnection>
+    </scm>
 
     <properties>
         <!-- Versions of additional modules to be bundled -->
@@ -356,6 +361,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.8</version>
                 <configuration>
                     <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
                 </configuration>
