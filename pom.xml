@@ -9,6 +9,7 @@
 
     <artifactId>epics-bundle-java</artifactId>
     <packaging>pom</packaging>
+    <version>${project.parent.version}</version>
 
     <name>EPICS Core Distribution Bundle</name>
     <url>https://github.com/epics-base/bundleJava</url>
@@ -21,8 +22,8 @@
 
     <properties>
         <!-- Versions of additional modules to be bundled -->
-        <epics-directoryservice.version>0.6.1-SNAPSHOT</epics-directoryservice.version>
-        <epics-examples.version>4.3.1-SNAPSHOT</epics-examples.version>
+        <epics-directoryservice.version>0.6.1</epics-directoryservice.version>
+        <epics-examples.version>4.3.1</epics-examples.version>
         <!-- Set the name for the release bundle -->
         <releaseName>EPICS-Java-${project.version}</releaseName>
     </properties>
